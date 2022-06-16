@@ -2,6 +2,7 @@ import "./Style/App.css";
 import { AiFillYoutube } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 import { IoMdPaperPlane } from "react-icons/io";
+import Logo from "./img/cleverLogo .png";
 
 function App() {
   // const setThemePreference = () => {
@@ -26,6 +27,7 @@ function App() {
           : ("data-theme", "light_theme")
       }
     >
+      <img src={Logo} alt="logo" />
       <div className="wrapper">
         <h1>
           Coming soon<span className="dot">.</span>
