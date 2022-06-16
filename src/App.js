@@ -1,23 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import "./Style/App.css";
+import { AiFillYoutube } from "react-icons/ai";
+import { BsTwitter } from "react-icons/bs";
+import { IoMdPaperPlane } from "react-icons/io";
 
 function App() {
+  // const setThemePreference = () => {
+  let d = new Date();
+
+  let currentHour = d.getHours();
+
+  // if (currentHour >= 19 || currentHour <= 6) {
+  //   document.body.setAttribute("data-theme", "dark_theme");
+  // } else {
+  //   document.body.setAttribute("data-theme", "light_theme");
+  // }
+  // };
+
+  // window.onload = setThemePreference;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      className={
+        currentHour >= 19 || currentHour <= 6
+          ? ("data-theme", "dark_theme")
+          : ("data-theme", "light_theme")
+      }
+    >
+      <div className="wrapper">
+        <h1>
+          Coming soon<span className="dot">.</span>
+        </h1>
+        <p>Our website is under construction.</p>
+        <div className="icons">
+          <a href="./">
+            <BsTwitter />
+          </a>
+          <a href="./">
+            <AiFillYoutube />
+          </a>
+          <a href="./">
+            <IoMdPaperPlane />
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
