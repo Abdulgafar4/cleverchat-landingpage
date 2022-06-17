@@ -1,4 +1,4 @@
-import "./Style/App.css";
+import "./App.css";
 import { AiFillYoutube } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 import { IoMdPaperPlane } from "react-icons/io";
