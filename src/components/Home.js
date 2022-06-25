@@ -1,4 +1,10 @@
 import HeaderPage from "./Header";
+import { BsStarHalf, BsStar} from "react-icons/bs";
+import {AiTwotoneStar} from "react-icons/ai";
+
+
+
+
 
 const HomePage = () => {
  return ( 
@@ -6,7 +12,7 @@ const HomePage = () => {
   <div  className="container mx-auto bg-white p-8 ">
 <HeaderPage/>
 
-   <div className=" container inline-flex justify-around sm:inline-block md:inline-block lg:inline-flex md:mx-auto  px-4 ">
+   <div className=" container inline-flex justify-around sm:inline-block  lg:inline-flex md:mx-auto  px-4 ">
 
    <div className="  mt-28" style={{width: 450}}>
     <h3 className="font-bold text-[35px] ">It's too late, <br/>
@@ -27,13 +33,14 @@ const HomePage = () => {
 
 <div className="flex">
 
-    <div class="flex -space-x-3 overflow-hidden">
+    <div className="flex -space-x-3 overflow-hidden">
     <img src="./img/img2.png"
      className="inline-block h-10 w-10 rounded-full ring-2 ring-white"
    alt="logo" />
     <img src="./img/img2.png"
   className="inline-block h-10 w-10  rounded-full ring-2 ring-white"
-alt="logo" /> <img src="./img/img2.png"
+alt="logo" /> 
+<img src="./img/img2.png"
 className="inline-block h-10 w-10 rounded-full ring-2 ring-white"
 alt="logo" />
 
@@ -47,7 +54,15 @@ alt="logo" />
 </div>
 <div>
  <h4 className="font-bold ml-3" >4.0/4 Rating</h4>
- <p className="text-sm text-center">oooooo</p>
+ <p className="text-sm text-center flex ml-3">
+<AiTwotoneStar color="purple" size={20}/>
+<AiTwotoneStar color="purple" size={20}/>
+<AiTwotoneStar color="purple" size={20}/>
+<AiTwotoneStar color="purple" size={20}/>
+<BsStarHalf color="purple" size={18}/>
+
+
+ </p>
 </div>
 
     </div>
