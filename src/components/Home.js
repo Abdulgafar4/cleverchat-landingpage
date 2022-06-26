@@ -1,7 +1,6 @@
 import HeaderPage from "./Header";
-import { BsStarHalf, BsStar} from "react-icons/bs";
+import { BsStarHalf, BsArrowRight} from "react-icons/bs";
 import {AiTwotoneStar} from "react-icons/ai";
-
 
 
 
@@ -12,14 +11,19 @@ const HomePage = () => {
   <div  className="container mx-auto bg-white p-8 ">
 <HeaderPage/>
 
-   <div className=" container inline-flex justify-around sm:inline-block  lg:inline-flex md:mx-auto  px-4 ">
+   <div className=" container  justify-around inline-block  lg:inline-flex md:mx-auto  px-4 ">
 
-   <div className="  mt-28" style={{width: 450}}>
-    <h3 className="font-bold text-[35px] ">It's too late, <br/>
+   <div className="mt-10  lg:mt-28  lg:w-[25rem] " >
+    <h3 className="font-bold text-[2rem] lg:text-[35px] ">It's not too late, <br/>
     You can still have a high pay tech skill. </h3 >
-    <p className="text-sm mt-5" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non praesentium eligendi reprehenderit facilis vitae odit ipsum fugiat eos id aperiam?</p>
+    <p className="text-sm mt-5 text-justify " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non praesentium eligendiNon praesentium eligendi reprehenderit facilis vitae odit ipsum fugia?</p>
     <div className="mt-3">
-     <button className="bg-purple-800  text-white p-3 mr-3 rounded-lg w-64"> Get in touch</button>
+     <button className="bg-purple-800  text-white p-3 mr-3 rounded-lg w-64">
+      <div className="flex justify-center">
+       <span> Get in touch</span>
+       <BsArrowRight color="white" size={20} className="mx-2 mt-1"/>
+      </div>
+      </button>
    </div>
 
 
@@ -35,25 +39,25 @@ const HomePage = () => {
 
     <div className="flex -space-x-3 overflow-hidden">
     <img src="./img/img2.png"
-     className="inline-block h-10 w-10 rounded-full ring-2 ring-white"
+     className="inline-block h-11 w-11 rounded-full ring-2 ring-white"
    alt="logo" />
     <img src="./img/img2.png"
-  className="inline-block h-10 w-10  rounded-full ring-2 ring-white"
+  className="inline-block h-11 w-11  rounded-full ring-2 ring-white"
 alt="logo" /> 
 <img src="./img/img2.png"
-className="inline-block h-10 w-10 rounded-full ring-2 ring-white"
+className="inline-block h-11 w-11 rounded-full ring-2 ring-white"
 alt="logo" />
 
 </div>
 <div className="mx-2">
- <h4 className="font-bold " >+200 STUDENTS</h4>
+ <h4 className="font-extrabold text-center " >+200 STUDENTS</h4>
  <p className="text-sm text-center">Join now!</p>
 </div>
 <div className="w-1 h-10 bg-black">
 
 </div>
 <div>
- <h4 className="font-bold ml-3" >4.0/4 Rating</h4>
+ <h4 className="font-extrabold ml-3 " >4.0 Rating</h4>
  <p className="text-sm text-center flex ml-3">
 <AiTwotoneStar color="purple" size={20}/>
 <AiTwotoneStar color="purple" size={20}/>
