@@ -9,13 +9,12 @@ module.exports = {
     md: '768px',
     lg: '976px',
     xl: '1440px',
-  },
-  fontFamily: {
-   Poppins: ['Poppins', 'sans-serif'],
-   Rototo: ['Roboto', 'sans-serif']
-  },
+   },
    extend: {
-
+    fontFamily: {
+     mono: "'Poppins', sans-serif",
+     roboto: "'Roboto', sans-serif",
+    },
    },
   },
   plugins: [],

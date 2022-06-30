@@ -3,7 +3,7 @@ import {BsThreeDots} from "react-icons/bs";
 
 const CommunityPage = () => {
  return ( 
-  <div className="container mt-20 ">
+  <div className="container mt-20  mb-6 ">
    <br/>
    <br/>
 <div className="block lg:flex lg:justify-around">
@@ -97,8 +97,10 @@ alt="logo" />
  <p className="text-justify tracking-tighter">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime aperiam minima et ducimus dolorem sequi libero, corporis, tempore ipsa minima et ducimus dolorem sequi 
 libero, corporis, tempore ipsa.</p>
 
-<div>
- <h4>4.3k <span></span></h4>
+<div className="flex justify-around text-center">
+ <h4 className="text-[3rem] lg:text-[4rem]">4.3k<span className="text-sm ">chats</span></h4>
+ <h4 className="text-[3rem] lg:text-[4rem]">3k<span className="text-sm ">user</span></h4>
+
 </div>
  </div>
 

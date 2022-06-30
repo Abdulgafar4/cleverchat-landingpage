@@ -19,7 +19,7 @@ const FeaturePage = () => {
      </div>
      <div className="block  w-50  lg:ml-8">
      <h4 className="font-bold text-lg">Problem Solver </h4> 
-     <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> Liberoasperiores explicabo aperiam unde est. </p>
+     <p className="text-sm ">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> Liberoasperiores explicabo aperiam unde est. </p>
      </div>
     </div>
 

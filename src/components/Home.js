@@ -14,13 +14,13 @@ const HomePage = () => {
    <div className=" container  lg:justify-around inline-block  lg:inline-flex   px-4 ">
 
    <div className="mt-10  lg:mt-28  lg:w-[25rem] " >
-    <h3 className="font-bold text-[2rem] lg:text-[35px] Poppins ">It's never too late, <br/>
+    <h3 className="font-bold text-[2rem] lg:text-[35px] font-mono leading-tight">It's never too late, <br/>
     You can still have a high pay tech skill. </h3 >
-    <p className="text-sm mt-5 text-justify  " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non praesentium eligendiNon praesentium eligendi reprehenderit facilis vitae odit ipsum fugia?</p>
+    <p className="text-[.8rem] mt-5 text-justify font-mono tracking-tighter " >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non praesentium eligendiNon praesentium eligendi reprehenderit facilis vitae odit ipsum fugia?</p>
     <div className="mt-3">
-     <button className="bg-purple-800  text-white p-3 mr-3 rounded-lg w-64">
+     <button className="bg-purple-800  text-white p-3 mr-3 rounded-lg w-full lg:w-64">
       <div className="flex justify-center">
-       <span> Get in touch</span>
+       <span className="font-mono"> Get in touch</span>
        <BsArrowRight color="white" size={20} className="mx-2 mt-1"/>
       </div>
       </button>

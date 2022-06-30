@@ -63,7 +63,7 @@ const ContactReview = () => {
 </div>
 
 
- <div className=" absolute w-[6.8rem] bg-white shadow-2xl  p-3 rounded top-[-4rem] ml-[14.5rem] lg:top-[10.5rem] lg: ml-[17.6rem]">
+ <div className=" absolute w-[6.8rem] bg-white shadow-2xl  p-3 rounded top-[-4rem] ml-[13.5rem] lg:top-[10.5rem] lg:ml-[17.6rem]">
 <img src="./img/img2.png" className="  rounded-full w-12 h-12 m-auto" 
   alt="logo" />
   <div className="text-center">
