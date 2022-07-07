@@ -2,8 +2,8 @@ import {BsWhatsapp, BsFacebook, BsInstagram} from "react-icons/bs"
 
 const FooterPage = () => {
  return ( 
-  <div className="contianer ">
-
+  <div className="contianer mt-6 ">
+<br/>
    <div className="block text-center lg:flex lg:justify-between">
     <div>
      <h4 className="m-3 font-mono font-bold text-purple-900 uppercase text-center">CleverTag</h4>

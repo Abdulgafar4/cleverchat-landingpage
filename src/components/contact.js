@@ -11,9 +11,25 @@ const ContactReview = () => {
   <div className="block lg:flex lg:justify-around">
 
    <div className="w-[23rem] mx-auto  text-center lg:mx-0 lg:text-left lg:w-[30rem] lg:mt-[4rem]">
-   <h4 className="text-[1.7rem] mb-2 font-extrabold capitalize">Get the required skill that will make you standout of the crowd</h4>
-   <p className="text-justify tracking-tighter">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime aperiam minima et ducimus dolorem sequi libero, corporis, tempore ipsa minima et ducimus dolorem sequi libero, corporis, tempore ipsa.</p>
+   <h4 className="text-[1.7rem] mb-2 font-extrabold capitalize">Coding is fun and interesting, but getting stuck makes its hard!</h4>
+   <p className="text-justify tracking-tighter">
+We have created this chat app not only to make coding interesting and easy, but to also get you out of stucking while coding. There are outnumber of developers on this chat app that'll help you out when you get stuck...</p>
+
+
+<div className="mt-6">
+  <button className="bg-purple-800  text-white p-3 mr-3 rounded-lg w-full 
+lg:w-64">
+   <div className="flex justify-center">
+    <span className="font-mono font-bold"> Chat Now! </span>
    </div>
+   </button>
+   </div>
+
+</div>
+
+
+
+
 
    
    <div className="mt-[7rem] lg:mt-[1rem]">
@@ -21,30 +37,30 @@ const ContactReview = () => {
     <div className="flex absolute top-5  ml-[10px]  p-2 ">
      <img src="./img/img2.png" className=" mr-4 rounded-full w-12 h-12" alt="logo" />
      <div className="inline-block bg-gray-200 rounded p-2">
-      <h4 className=" font-bold text-[.7rem]">Zhulikifili Olayinka!</h4>
-      <p className="text-[.7rem] ">I started it as joke, but now i am too  </p>
+      <h4 className=" font-bold text-[.7rem]">Muhammad Hawal!</h4>
+      <p className="text-[.7rem] ">How does one write a function??????? </p>
       </div>
 
     </div>
 
     <div className="flex absolute top-[6.8rem]  ml-[1.3rem]   p-2 ">
     <div className="inline-block bg-purple-200 rounded p-2">
-     <h4 className=" font-bold text-[.7rem]">Zhulikifili Olayinka!</h4>
-     <p className="text-[.7rem] ">I started it as joke, but now i am too <br/> how are yout doonf for u and him. 
+     <h4 className=" font-bold text-[.7rem]">Demorah Olayinka!</h4>
+     <p className="text-[.7rem] "> visit "www.w3schools.com"<br/> They have good document on that!. 
 </p>
      </div>
 
-     <img src="./img/img2.png" className=" ml-[1rem] mt-2 rounded-full w-12 h-12" 
+     <img src="./img/img4.jpg" className=" ml-[1rem] mt-2 rounded-full w-12 h-12" 
     alt="logo" />
    </div>
 
 
    <div className="flex absolute top-[13rem]  ml-[10px]  p-2 ">
-    <img src="./img/img2.png" className=" mr-4 rounded-full w-12 h-12" 
+    <img src="./img/img5.jpg" className=" mr-4 rounded-full w-12 h-12 object-cover" 
     alt="logo" />
     <div className="inline-block bg-gray-200 rounded p-2">
-     <h4 className=" font-bold text-[.7rem]">Zhulikifili Olayinka!</h4>
-     <p className="text-[.7rem] ">I started it as joke, but now i am too  
+     <h4 className=" font-bold text-[.7rem]">Abdulazeez Sodiq</h4>
+     <p className="text-[.7rem] ">I really appreciate this! thank you........
 </p>
      </div>
    </div>
