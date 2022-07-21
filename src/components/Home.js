@@ -1,7 +1,11 @@
 import HeaderPage from "./Header";
 import { BsStarHalf, BsArrowRight} from "react-icons/bs";
 import {AiTwotoneStar} from "react-icons/ai";
-
+import Image7 from '../img/img3.jpg';
+import Image8 from '../img/img5.jpg';
+import Image9 from '../img/img4.jpg';
+import Image2 from '../img/img2.png' ;
+import Image5 from '../img/img3.jpg' ;
 
 
 
@@ -38,13 +42,13 @@ const HomePage = () => {
 <div className="flex">
 
     <div className="flex -space-x-3 overflow-hidden">
-    <img src="./img/img3.jpg"
+    <img src={Image7}
      className="inline-block h-11 w-11 rounded-full ring-2 ring-white"
    alt="logo" />
-    <img src="./img/img5.jpg"
+    <img src={Image8}
   className="inline-block h-11 w-11  rounded-full ring-2 ring-white"
 alt="logo" /> 
-<img src="./img/img4.jpg"
+<img src={Image9}
 className="inline-block h-11 w-11 rounded-full ring-2 ring-white"
 alt="logo" />
 
@@ -79,11 +83,11 @@ alt="logo" />
    <br></br>
 
    <div className=" relative">
-    <img src="./img/img2.png" className=" sm:mx-auto" 
+    <img src={Image2} className=" sm:mx-auto" 
     style={{width: 400}} alt="logo" />
 
 <div className="flex absolute top-80   left-50 mt-16 rounded-lg shadow-lg bg-white shadow-lg shadow-black-900 p-2">
-<img src="./img/img5.jpg" className=" mr-4 rounded-full w-10 object-cover" 
+<img src={Image5} className=" mr-4 rounded-full w-10 object-cover" 
 alt="logo" />
 <div className="inline-block">
 <h4 className="font-mono font-bold text-[.9rem]">Zhulikifili Olayinka!</h4>
@@ -94,7 +98,7 @@ alt="logo" />
 
 <div className="flex absolute top-40 right-0 mt-12 rounded-lg bg-white-500 shadow-lg shadow-black-900
 bg-white p-2">
-<img src="./img/img3.jpg" className="mr-4 rounded-full w-10 object-cover" 
+<img src={Image8} className="mr-4 rounded-full w-10 object-cover" 
 alt="logo" />
 <div className="inline-block">
 <h4 className="font-mono font-bold text-[.9rem]">Abdulazeez sodiq!</h4>

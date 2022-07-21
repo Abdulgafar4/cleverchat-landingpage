@@ -2,8 +2,9 @@ import {AiOutlineSend} from "react-icons/ai"
 import {BsThreeDots} from "react-icons/bs";
 import {FiPhoneCall} from "react-icons/fi";
 import {HiPhoneMissedCall} from "react-icons/hi";
-
-
+import Image1 from '../img/img2.png' ;
+import Image2 from '../img/img4.jpg' ;
+import Image3 from '../img/img5.jpg' ;
 
 const ContactReview = () => {
  return ( 
@@ -35,7 +36,7 @@ lg:w-64">
    <div className="mt-[7rem] lg:mt-[1rem]">
     <div className="w-[20rem] h-[23.5rem] bg-white mx-auto shadow-2xl shadow-black-900  rounded  relative">
     <div className="flex absolute top-5  ml-[10px]  p-2 ">
-     <img src="./img/img2.png" className=" mr-4 rounded-full w-12 h-12" alt="logo" />
+    <img src={Image2} className=" mr-4 rounded-full w-12 h-12" alt="logo" />
      <div className="inline-block bg-gray-200 rounded p-2">
       <h4 className=" font-bold text-[.7rem]">Muhammad Hawal!</h4>
       <p className="text-[.7rem] ">How does one write a function??????? </p>
@@ -50,13 +51,13 @@ lg:w-64">
 </p>
      </div>
 
-     <img src="./img/img4.jpg" className=" ml-[1rem] mt-2 rounded-full w-12 h-12" 
+     <img src={Image1} className=" ml-[1rem] mt-2 rounded-full w-12 h-12" 
     alt="logo" />
    </div>
 
 
    <div className="flex absolute top-[13rem]  ml-[10px]  p-2 ">
-    <img src="./img/img5.jpg" className=" mr-4 rounded-full w-12 h-12 object-cover" 
+    <img src={Image3} className=" mr-4 rounded-full w-12 h-12 object-cover" 
     alt="logo" />
     <div className="inline-block bg-gray-200 rounded p-2">
      <h4 className=" font-bold text-[.7rem]">Abdulazeez Sodiq</h4>
@@ -80,7 +81,7 @@ lg:w-64">
 
 
  <div className=" absolute w-[6.8rem] bg-white shadow-2xl  p-3 rounded top-[-4rem] ml-[13.5rem] lg:top-[10.5rem] lg:ml-[17.6rem]">
-<img src="./img/img2.png" className="  rounded-full w-12 h-12 m-auto" 
+<img src={Image1} className="  rounded-full w-12 h-12 m-auto" 
   alt="logo" />
   <div className="text-center">
    <h4 className="font-bold text-[.6rem]">Rome Deborah</h4>
