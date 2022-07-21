@@ -1,6 +1,7 @@
 import {FiMenu} from "react-icons/fi";
 import { RiCloseLine} from "react-icons/ri";
 import{useState} from "react";
+import Logo from "../img/cleverLogo .png"
 
 const HeaderPage = () => {
  const [nav, setNav]=useState(false);
@@ -11,7 +12,7 @@ const HeaderPage = () => {
   <div className="container">
    <div className="flex justify-between" >
     <div>
-     <img src="./img/cleverLogo .png" className="w-[70px] " alt="Logo" />
+     <img src={Logo} className="w-[70px] " alt="Logo" />
     </div>
     <nav>
 <ul className="hidden lg:flex  ">

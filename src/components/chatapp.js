@@ -1,4 +1,12 @@
 import {BsThreeDots} from "react-icons/bs";
+import Image1 from '../img/img4.jpg' ;
+import Image2 from '../img/img2.png' ;
+import Image3 from '../img/img5.jpg' ;
+import Image4 from '../img/img3.jpg' ;
+import Image5 from '../img/img4.jpg' ;
+import Image6 from '../img/img5.jpg' ;
+
+
 
 
 const CommunityPage = () => {
@@ -18,18 +26,18 @@ shadow-black-900  rounded border relative">
   </div>
 
   <div className="absolute -ml-7 mt-[6rem] "> 
-  <img src="./img/img4.jpg" className="  rounded-full w-12 h-12 object-cover" 
-  alt="logo" />
+  <img src={Image1} className="  rounded-full w-12 h-12 object-cover" 
+  alt="Image1" />
   </div>
 
   <div className="absolute ml-[10rem] mt-[23rem] "> 
-<img src="./img/img2.png" className="  rounded-full w-12 h-12" 
+<img src={Image2} className="  rounded-full w-12 h-12" 
 alt="logo" />
 </div>
 
 
 <div className="absolute ml-[17rem] mt-[12rem] "> 
-<img src="./img/img5.jpg" className="  rounded-full w-12 h-12 object-cover" 
+<img src={Image3} className="  rounded-full w-12 h-12 object-cover" 
 alt="logo" />
 </div>
 
@@ -39,7 +47,7 @@ alt="logo" />
 
 
   <div className="flex absolute top-12 bg-gray-100 rounded-lg shadow-lg ml-[19px] w-[15.8rem] p-2 ">
-   <img src="./img/img3.jpg" className=" mr-4 rounded-full w-10 h-10 object-cover" 
+   <img src={Image4} className=" mr-4 rounded-full w-10 h-10 object-cover" 
    alt="logo" />
    <div className="inline-block  rounded p-2">
     <h4 className=" font-bold text-[.7rem]">John Johnny!</h4>
@@ -50,7 +58,7 @@ alt="logo" />
 
   
   <div className="flex absolute top-[8.2rem] bg-gray-100 rounded-lg shadow-lg ml-[19px] w-[15.8rem] p-2 ">
-   <img src="./img/img2.png" className=" mr-4 rounded-full w-10 h-10 " 
+   <img src={Image2} className=" mr-4 rounded-full w-10 h-10 " 
    alt="logo" />
    <div className="inline-block  rounded p-2">
     <h4 className=" font-bold text-[.7rem]">Zhulikifili Olayinka!</h4>
@@ -62,7 +70,7 @@ alt="logo" />
 
   
   <div className="flex absolute top-[13.3rem] bg-gray-100 rounded-lg shadow-lg ml-[19px] w-[15.8rem] p-2 ">
-   <img src="./img/img4.jpg" className=" mr-4 rounded-full w-10 h-10 object-cover" 
+   <img src={Image5} className=" mr-4 rounded-full w-10 h-10 object-cover" 
    alt="logo" />
    <div className="inline-block  rounded p-2">
     <h4 className=" font-bold text-[.7rem]">Abdulgafar Abdulsalam</h4>
@@ -73,7 +81,7 @@ alt="logo" />
 
   
   <div className="flex absolute top-[18.6rem] bg-gray-100 rounded-lg shadow-lg ml-[19px] w-[15.8rem] p-2 ">
-   <img src="./img/img5.jpg" className=" mr-4 rounded-full w-10 h-10 object-over" 
+   <img src={Image6} className=" mr-4 rounded-full w-10 h-10 object-over" 
    alt="logo" />
    <div className="inline-block  rounded p-2">
     <h4 className=" font-bold text-[.7rem]">Deborah Olayinka!</h4>
@@ -92,7 +100,7 @@ alt="logo" />
 </div>
 
 
-<div className="w-[23rem] mx-auto mt-14 text-center lg:mt-0 lg:mx-0 lg:text-left lg:w-[30rem] lg:mt-[4rem]">
+<div className="w-[23rem] mx-auto mt-14 text-center   lg:mt-0 lg:mx-0 lg:text-left lg:w-[30rem] lg:mt-[4rem]">
  <h4 className="text-[1.7rem] mb-2 font-extrabold capitalize">A community where developers are outnumber can easly  help when stuck</h4>
  <p className="text-justify tracking-tighter">
   This CleverTag community is one of the perfect platfrom that will get you connected to developer oversea and neighbour and the best place to ask for help when stuck and contribute on a project.
